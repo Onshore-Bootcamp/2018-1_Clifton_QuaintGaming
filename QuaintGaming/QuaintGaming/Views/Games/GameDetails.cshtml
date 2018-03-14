@@ -1,0 +1,129 @@
+﻿@using QuaintGaming.Models
+@model GamePO
+@{
+    ViewBag.Title = "Game Details";
+}
+<div>
+    <h1 class="game-title">@Html.DisplayFor(model => Model.GameName)</h1>
+
+    <div class="container-rating">
+        @if (ViewBag != null)
+        {
+            <img src="@ViewBag.StarRating" class="rating-stars" /> <span class="rating">@ViewBag.Rating</span>
+        }
+        else
+        {
+            <span>No one has rated this game yet.</span>
+        }
+    </div>
+
+
+
+    <div class="view-content">
+        <div class="description">
+            @Html.LabelFor(model => Model.Description) <br />
+            @Html.DisplayFor(model => Model.Description)
+        </div>
+        <div class="grid-container">
+            <div class="grid-item1">
+                <img src=@Model.Picture height="250" width="180" />
+            </div>
+            <div class="grid-item">
+                @Html.LabelFor(model => Model.ReleaseYear)
+            </div>
+            <div class="grid-item">
+                @Html.DisplayFor(model => Model.ReleaseYear)
+            </div>
+            <div class="grid-item">
+                @Html.LabelFor(model => Model.Developer)
+            </div>
+            <div class="grid-item">
+                @Html.DisplayFor(model => Model.Developer)
+            </div>
+            <div class="grid-item">
+                @Html.LabelFor(model => Model.Publisher)
+            </div>
+            <div class="grid-item">
+                @Html.DisplayFor(model => Model.Publisher)
+            </div>
+            <div class="grid-item">
+                @Html.LabelFor(model => Model.Genre)
+            </div>
+            <div class="grid-item">
+                @Html.DisplayFor(model => Model.Genre)
+            </div>
+            <div class="grid-item">
+                @Html.LabelFor(model => Model.Platform)
+            </div>
+            <div class="grid-item">
+                @Html.DisplayFor(model => Model.Platform)
+            </div>
+        </div>
+
+        <div class="detail-buttons">
+            <div class="col-md-12">
+                <div class="col-md-3">
+                    @Html.ActionLink("Comments", "ViewGameComments", "Comments",
+                        new { specificGame = Model.GameID },
+                        new { @class = "btn btn-default" })
+
+                    @if (ViewBag.Comments == null)
+                    {
+                        <div>0 Comments</div>
+                    }
+                    else if (ViewBag.Comments == 1)
+                    {
+                        <div>@ViewBag.Comments Comment</div>
+                    }
+                    else
+                    {
+                        <div>@ViewBag.Comments Comments</div>
+                    }
+                </div>
+                <div class="col-md-3">
+                    @if (!string.IsNullOrWhiteSpace(Model.Download) && Session["UserRole"] != null)
+                    {
+                        @Html.ActionLink("Download", "DownloadGame", "Games",
+                  new { gameName = Model.Download },
+                  new { @class = "btn btn-default" })
+                    }
+                    else if (!string.IsNullOrWhiteSpace(Model.Download) && Session["UserRole"] == null)
+                    {
+                        <button type="button" class="btn btn-default" disabled>Download</button>
+                        <p>Sign in to Download</p>
+                    }
+                    else
+                    {
+                        <button type="button" class="btn btn-default" disabled>Download</button>
+                        <div>Download Unavailable</div>
+                    }
+                </div>
+                <div class="col-md-3">
+                    @if (Session["UserRole"] != null && (int)Session["UserRole"] < 3)
+                    {
+                        @Html.ActionLink("Update Game", "UpdateGame", "Games",
+                             new { specificGame = Model.GameID },
+                             new { @class = "btn btn-default" })
+                    }
+                </div>
+                <div class="col-md-3">
+                    @if (Session["UserRole"] != null && (int)Session["UserRole"] == 1)
+                    {
+                        @Html.ActionLink("Delete", "RemoveGame", "Games",
+                             new { specificGame = Model.GameID },
+                             new { @class = "btn btn-danger", @onclick = "return gameDelete()" })
+                    }
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+</div>
+
+
+

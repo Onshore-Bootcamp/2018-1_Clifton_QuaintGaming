@@ -1,0 +1,94 @@
+﻿@using QuaintGaming.Models
+
+@model ViewCommentPO
+@{
+    ViewBag.Title = "ViewGameComments";
+}
+
+<div>
+    @*Display the game name from TempData*@
+    @if (TempData.ContainsKey("GameName"))
+    {
+        <h2 class="text-center">@Html.ActionLink(TempData["GameName"].ToString(), "GameDetails", "Games",
+                                new { specificGame = Model.Comment.GameID }, null)</h2>
+    }
+    @*Prompt users to register to comment.*@
+    @if (Session["UserRole"] == null)
+    {
+        <p><i>Register or Sign in to rate and comment on this game!</i></p>
+    }
+
+    <div class="add-comment">
+        @if (Session["UserRole"] != null)
+        {
+            <div>
+                <h4>Add a comment</h4>
+                @using (Html.BeginForm("AddComment", "Comments", FormMethod.Post))
+                {
+                    @Html.ValidationMessageFor(model => Model.Comment.CommentText)
+                    <div>
+                        @Html.EditorFor(model => Model.Comment.CommentText)
+                        @Html.HiddenFor(model => Model.Comment.UserID)
+                        @Html.HiddenFor(model => Model.Comment.GameID)
+                        @Html.HiddenFor(model => Model.Comment.Username)
+                    </div>
+                    @*Dropdown menu for the rating*@
+                    <select class="form-control" name="ratingDropdown" id="rating">
+                        <option selected value="0">Rating</option>
+                        <option value="5">5 Stars</option>
+                        <option value="4">4 Stars</option>
+                        <option value="3">3 Stars</option>
+                        <option value="2">2 Stars</option>
+                        <option value="1">1 Star</option>
+                    </select>
+                    <input class="btn btn-primary" type="submit" value="Add Comment" />
+                }
+            </div>
+        }
+    </div>
+    <div>
+        @foreach (CommentPO comment in Model.CommentList)
+        {
+            <div class="comment-card-wrapper">
+                <div class="comment-card">
+                    <h4 class="username">@Html.DisplayFor(model => comment.Username)</h4>
+
+
+                    <div class="editHide" id="multiline-text">
+                        @Html.DisplayFor(model => comment.CommentText)
+                    </div>
+                    <div style="display: none" class="commentEdit">
+                        @using (Html.BeginForm("UpdateComment", "Comments", FormMethod.Post))
+                        {
+                            @Html.EditorFor(model => comment.CommentText)
+                            @Html.HiddenFor(model => comment.CommentID)
+                            @Html.HiddenFor(model => comment.Username)
+                            @Html.HiddenFor(model => comment.GameName)
+                            @Html.HiddenFor(model => comment.GameID)
+                            @Html.HiddenFor(model => comment.UserID)
+
+                            <input class="btn btn-default" type="submit" value="Save" />
+                            <div class="btn btn-default close-button">Cancel</div>
+                        }
+                    </div>
+
+                    <div class="comment-date">
+                        <h6>@Html.DisplayFor(model => comment.CommentTime)</h6>
+                    </div>
+                    @if (Session["UserRole"] != null && ((int)Session["UserID"] == comment.UserID
+                        || (int)Session["UserRole"] == 1))
+                    {
+                        <div class="editHide">
+                            <div class="button-position">
+                                <button class="btn btn-default edit-button">Edit</button>
+                                @Html.ActionLink("Delete", "RemoveComment", "Comments", 
+                                new { specificComment = comment.CommentID, specificGame = comment.GameID, specificUser = comment.UserID }, 
+                                new { @class = "btn btn-danger", @onclick = "return commentDelete()" })
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+</div>

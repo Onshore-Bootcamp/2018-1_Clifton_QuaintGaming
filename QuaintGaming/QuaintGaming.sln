@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuaintGaming", "QuaintGaming\QuaintGaming.csproj", "{651A5C1E-4136-455D-8C40-4E8D356FBB79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuaintBLL", "QuaintBLL\QuaintBLL.csproj", "{BA5C2F44-1C52-42D4-9978-32B9CB3B0DCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuaintDAL", "QuaintDAL\QuaintDAL.csproj", "{A125DC5D-4F6A-4861-888A-0A00D5AB5174}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{651A5C1E-4136-455D-8C40-4E8D356FBB79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{651A5C1E-4136-455D-8C40-4E8D356FBB79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{651A5C1E-4136-455D-8C40-4E8D356FBB79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{651A5C1E-4136-455D-8C40-4E8D356FBB79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA5C2F44-1C52-42D4-9978-32B9CB3B0DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA5C2F44-1C52-42D4-9978-32B9CB3B0DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA5C2F44-1C52-42D4-9978-32B9CB3B0DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA5C2F44-1C52-42D4-9978-32B9CB3B0DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A125DC5D-4F6A-4861-888A-0A00D5AB5174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A125DC5D-4F6A-4861-888A-0A00D5AB5174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A125DC5D-4F6A-4861-888A-0A00D5AB5174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A125DC5D-4F6A-4861-888A-0A00D5AB5174}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {690F5F0C-3998-4013-8EE0-238BAC0C2A9A}
+	EndGlobalSection
+EndGlobal

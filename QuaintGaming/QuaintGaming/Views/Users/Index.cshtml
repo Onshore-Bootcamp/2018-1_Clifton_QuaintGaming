@@ -1,0 +1,69 @@
+﻿@using QuaintGaming.Models
+@model List<UserPO>
+@{
+    ViewBag.Title = "Users";
+}
+<div>
+    <div class="text-center">
+        <h2>All Users</h2>
+    </div>
+    <div class="add-button">
+        @Html.ActionLink("Add User", "RegisterUser", "Users",
+                          new { @class = "btn btn-primary btn-lg btn-block" })
+    </div>
+    <table class="table" id="users-table">
+        <thead>
+            <tr style="text-align:center">
+                <th>Username</th>
+                <th>Name</th>
+                <th>Email Address</th>
+                <th>Permissions</th>
+                <th>Edit</th>
+                <th>Remove</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+            </tr>
+            @foreach (UserPO user in Model)
+            {
+                @Html.HiddenFor(model => user.UserID)
+                <tr>
+                    <td>
+                        <strong>@Html.DisplayFor(model => user.Username)</strong>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(model => user.FirstName)
+                        @Html.DisplayFor(model => user.LastName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(model => user.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(model => user.Title)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Update User", "UpdateUser", "Users",
+                                                 new { specificUser = user.UserID },
+                                                 new { @class = "btn btn-default" })
+                    </td>
+                    <td>
+                        @if (user.RoleID == 1)
+                        {
+                            <button class="btn btn-default" onclick="adminDelete()" disabled>Remove User</button>
+                        }
+                        else
+                        {
+                            @Html.ActionLink("Remove User", "RemoveUser", "Users",
+                                                new { specificUser = user.UserID, userRole = user.RoleID },
+                                                new { @class = "btn btn-danger", @onclick = "return userDelete()" })
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

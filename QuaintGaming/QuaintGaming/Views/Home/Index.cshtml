@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="homepage-img">
+    <img src="~/Content/Images/img1.jpg"/>
+    <p1>Old fashioned games never looked so good.</p1>
+</div>
+
+<div class="spacing2">
+    <h1>Welcome to Quaint Gaming</h1>
+    <p>Here you'll find a growing community of gamers who love and appreciate the PC games of antiquity.
+        We offer a place to discuss the classics, share our stories with one another, review the games from
+        decades past or maybe even discover others that have slipped by us through the years.</p>
+    <p>Join now and tell us about the games that YOU love. Share how you feel about a game by giving it a 
+        rating. Find out who developed your favorites, what year they were released, and relive the memories
+        by downloading the full games directly from us! 
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>The Games</h2>
+        <p>
+            Quaint Gaming's focus is on the oldies. Whether it's MS-DOS, Amiga, Commodore 64 or back to the 
+            AppleII, if it's dusty and makes alot of noise when you hit the power button, chances are we 
+            hold a place in our hearts for some of the games developed for these grand old computers. 
+        </p>
+        
+        <div class="spacing-underbutton">
+            <a class="btn btn-default" href="@Url.Action("Index", "Games")">Games &raquo;</a>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <h2>About Us</h2>
+        <p>
+            Who is this <em>Quaint Gaming</em>, and why do they enjoy such primitive, pixelated masterpieces?
+            In the About section, we go through who we are, what we do, and why we do what we do, just for you!
+            You'll also learn how to get the most out of this website, so check it out.
+        </p>
+        <div class="spacing-underbutton">
+            <a class="btn btn-default" href="@Url.Action("About", "Home")">About &raquo;</a>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <h2>Links</h2>
+        <p>
+        If we don't have the game available for download that you're looking for, we know the folks that
+        do. Visit our links page for a list of websites that specialize in hoarding large amounts of video
+        games. When you find the game you're looking for, come tell us all about it!
+        </p>
+        <div class="spacing-underbutton"><a class="btn btn-default" href="@Url.Action("Links","Home")">Links &raquo;</a></div>
+    </div>
+   
+</div>

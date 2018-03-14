@@ -1,0 +1,366 @@
+﻿
+/* Maintain the bottom footer */
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+/* Background Settings */
+body {
+    background-image: url("Images/floppytilesgreen.png");
+    background-repeat: repeat;
+    height: 100%;
+    padding-bottom: 100px;
+}
+
+/* Content Area Settings */
+.body-content {
+    padding-left: 25px;
+    padding-right: 25px;
+    background: rgb(242, 242, 242);
+    width: 78%;
+}
+
+/* Footer Settings */
+#footer {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(15, 15, 15);
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Logo area above Navbar */
+.above-nav-container {
+    text-align: center;
+    bottom: 20px;
+}
+
+.above-nav {
+    height: 100px;
+    background-color: #66B64B;
+}
+
+.logo {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* Navbar Settings */
+.nav-wrapper {
+    min-height: 50px;
+}
+
+.affix {
+    top: 0px;
+    width: 100%;
+}
+
+.navbar {
+    border-radius: 0;
+    margin: 0;
+}
+
+.nav-links {
+    font-family: Impact;
+    font-size: 25px;
+    font-weight: 500;
+    color: #00e600;
+}
+
+/* Site-wide Settings*/
+h1 {
+    font-family: Tahoma, sans serif;
+}
+
+h2 {
+    font-family: Tahoma, sans-serif;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Homepage */
+.homepage-img {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.homepage-img > img {
+    max-width: 100%;
+    height: auto;
+    width: 1000px;
+}
+
+.homepage-img p1 {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    font-size: 75px;
+    font-weight: bold;
+}
+
+/* About Page */
+.about {
+    position: relative;
+}
+
+.about h1 {
+    margin: 50px 0 30px;
+}
+
+.about p {
+    padding: 0 50px 0 50px; 
+}
+
+.about > div > img {
+    max-width: 100%;
+    margin: 30px 0 50px;
+}
+
+/* Links Page */
+.links {
+    position: relative;
+}
+
+.links h1 {
+    margin: 50px 0 30px
+}
+
+.links img {
+    max-width: 100%;
+    margin-top: 30px;
+}
+
+.links p {
+    padding: 0 50px 0 50px;
+    margin-bottom: 100px;
+}
+
+/* Element Spacing */
+.spacing2 {
+    margin: 100px;
+}
+
+.spacing2 > p {
+    font-size: 20px;
+    font-family: sans-serif
+}
+
+.add-button {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* Buttons at the bottom of pages */
+.spacing-underbutton {
+    margin-bottom: 20px;
+}
+
+/* User Details */
+.user-card {
+    margin: auto;
+    height: 500px;
+    width: 700px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 30px;
+    background-color: #F4F1E8;
+    box-shadow: -2px 10px 15px #0d0d0d;
+    text-align: center;
+}
+
+.username-card {
+    font-weight: bold;
+    font-size: large;
+    margin: 20px 0 50px;
+}
+
+.user-detail-buttons {
+    margin-top: 50px;
+}
+
+.user-detail-buttons .btn-default {
+    margin-right: 200px;
+}
+
+/* Game Details */
+h1.game-title {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+    font-size: 64px;
+}
+
+/* View Content Wrapper */
+.view-content {
+    padding: 20px;
+}
+
+.description {
+    text-align: center;
+    padding: 50px 20px 10px 20px
+}
+
+.detail-buttons {
+    margin-top: 100px;
+    padding-bottom: 55px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: #0c0909;
+    color: white;
+}
+
+/* Details View Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 100px 200px;
+    grid-gap: 5px;
+    margin: 20px 50px;
+    padding: 5px;
+}
+
+.grid-item1 {
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+/* Star Ratings */
+.container-rating {
+    text-align: center;
+}
+
+.rating {
+    position: relative;
+    display: inline-block;
+    font-weight: 800;
+    top: 4px
+}
+
+.rating-stars {
+    max-height: 10%;
+    max-width: 10%;
+}
+
+/* Comments Page */
+.add-comment {
+    margin: 50px 10px 50px;
+    text-align: center;
+    
+}
+
+#rating {
+    width: 100px;
+    margin:10px;
+    display: inline;
+    margin-right: 100px;
+}
+
+textarea {
+    max-width: none;
+}
+
+.multi-line {
+    width: 600px;
+    height: 125px;
+}
+
+.comment-card-wrapper {
+    min-height: 50px;
+    padding: 20px;
+    margin: 0 50px 25px 50px;
+    background-color: #F4F1E8;
+    box-shadow: -2px 10px 15px #0d0d0d;
+}
+
+#multiline-text {
+    white-space: pre-line;
+    padding: 0 20px 0 20px;
+    position: relative;
+    bottom: 15px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.button-position {
+    float: right;
+    bottom: 20px;
+    position: relative;
+}
+
+/* Index Cards */
+#games-display {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.card-wrapper {
+    max-width: 220px;
+    max-height: 350px;
+    padding: 20px 0 10px;
+    margin: auto;
+    margin-bottom: 100px;
+    background-color: #F4F1E8;
+    box-shadow: -2px 10px 15px #0d0d0d;
+}
+
+.card {
+    margin: auto;
+}
+
+.card-title {
+    font-size: 16px;
+}
+
+
+/* Pagination Settings */
+.pagination > .active > a {
+    background-color: black;
+    color: dodgerblue;
+    border-color: black;
+    font-weight: bold;
+}
+
+.pagination > .active > a:hover {
+        color: black;
+        background-color: dodgerblue;
+        border-color: black;
+        font-weight: bold;
+}
+
+.pagination a {
+    background-color: gray;
+}
+
+.pagination > li > a, .pagination > li > span {
+    color: black;
+}
+
+.pagination > li > a {
+    background-color: white;
+}
+
+.pagination > li > a:hover {
+    background-color: gray;
+    color: white;
+}
+
+

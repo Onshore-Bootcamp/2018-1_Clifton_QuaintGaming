@@ -1,0 +1,6 @@
+C:\Users\Clifton\source\repos\QuaintGaming\QuaintBLL\bin\Debug\QuaintBLL.dll
+C:\Users\Clifton\source\repos\QuaintGaming\QuaintBLL\bin\Debug\QuaintBLL.pdb
+C:\Users\Clifton\source\repos\QuaintGaming\QuaintBLL\obj\Debug\QuaintBLL.csproj.CoreCompileInputs.cache
+C:\Users\Clifton\source\repos\QuaintGaming\QuaintBLL\obj\Debug\QuaintBLL.dll
+C:\Users\Clifton\source\repos\QuaintGaming\QuaintBLL\obj\Debug\QuaintBLL.pdb
+C:\Users\Clifton\source\repos\QuaintGaming\QuaintBLL\obj\Debug\QuaintBLL.csprojResolveAssemblyReference.cache

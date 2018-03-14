@@ -1,0 +1,64 @@
+﻿@using QuaintGaming.Models
+@model GamePO
+@{
+    ViewBag.Title = "Add a Game";
+}
+<div>
+    <h2>Add a Game</h2>
+    @using (Html.BeginForm("AddGame", "Games", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <div class="form-horizontal">
+            @Html.LabelFor(model => Model.GameName)
+            <div class="form-group">
+                @Html.TextBoxFor(model => Model.GameName)
+                @Html.ValidationMessageFor(model => Model.GameName, "*")
+            </div>
+            @Html.LabelFor(model => Model.ReleaseYear)
+            <div class="form-group">
+                @Html.TextBoxFor(model => Model.ReleaseYear)
+                @Html.ValidationMessageFor(model => Model.ReleaseYear, "*")
+            </div>
+            @Html.LabelFor(model => Model.Developer)
+            <div class="form-group">
+                @Html.TextBoxFor(model => Model.Developer)
+            </div>
+            @Html.LabelFor(model => Model.Publisher)
+            <div class="form-group">
+                @Html.TextBoxFor(model => Model.Publisher)
+            </div>
+            @Html.LabelFor(model => Model.Genre)
+            <div class="form-group">
+                @Html.TextBoxFor(model => Model.Genre)
+            </div>
+            @Html.LabelFor(model => Model.Platform)
+            <div class="form-group">
+                @Html.TextBoxFor(model => Model.Platform)
+                @Html.ValidationMessageFor(model => Model.Platform, "*")
+            </div>
+            @Html.LabelFor(model => Model.Description)
+            <div class="form-group">
+                @Html.EditorFor(model => Model.Description)
+                @Html.ValidationMessageFor(model => Model.Description, "*")
+            </div>
+        </div>
+
+        <div class="row">
+            @Html.LabelFor(model => Model.Picture)
+            <div class="form-group">
+                <input type="file" name="picture" id="file" />
+            </div>
+            @*Only administrators can upload a game file*@
+            @if ((int)Session["UserRole"] == 1)
+            {
+                @Html.LabelFor(model => Model.Download)
+                <div class="form-group">
+                    <input type="file" name="game" id="file" />
+                </div>
+            }
+        </div>
+        @Html.ValidationSummary()
+        <div class="spacing-underbutton">
+            <input class="btn btn-default" type="submit" value="Submit" />
+        </div>
+    }
+</div>

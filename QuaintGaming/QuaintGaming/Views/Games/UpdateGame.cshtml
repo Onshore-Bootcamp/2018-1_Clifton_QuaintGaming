@@ -1,0 +1,81 @@
+﻿@using QuaintGaming.Models
+@model GamePO
+@{
+    ViewBag.Title = "Update Game";
+}
+
+
+<div>
+    <h2>Update Game</h2>
+    @using (Html.BeginForm("UpdateGame", "Games", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.HiddenFor(model => Model.GameID)
+        <div class="form-horizontal">
+            @Html.LabelFor(model => Model.GameName)
+            <div class="form-group">
+                @Html.ValidationMessageFor(model => Model.GameName)
+                @Html.EditorFor(model => Model.GameName)
+            </div>
+
+            @Html.LabelFor(model => Model.ReleaseYear)
+            <div class="form-group">
+                @Html.ValidationMessageFor(model => Model.ReleaseYear)
+                @Html.EditorFor(model => Model.ReleaseYear)
+            </div>
+
+            @Html.LabelFor(model => Model.Genre)
+            <div class="form-group">
+                @Html.EditorFor(model => Model.Genre)
+            </div>
+
+            @Html.LabelFor(model => Model.Developer)
+            <div class="form-group">
+                @Html.EditorFor(model => Model.Developer)
+            </div>
+
+            @Html.LabelFor(model => Model.Publisher)
+            <div class="form-group">
+                @Html.EditorFor(model => Model.Publisher)
+            </div>
+
+            @Html.LabelFor(model => Model.Platform)
+            <div class="form-group">
+                @Html.ValidationMessageFor(model => Model.Platform)
+                @Html.EditorFor(model => Model.Platform)
+            </div>
+
+            @if ((int)Session["UserRole"] == 1)
+            {
+                @Html.LabelFor(model => Model.Download)
+                @Html.HiddenFor(model => Model.Download)
+                <div class="form-group">
+                    <input type="file" name="game" id="file" />
+                </div>
+            }
+
+            @Html.LabelFor(model => Model.Picture)
+            @Html.HiddenFor(model => Model.Picture)
+            <div class="form-group">
+                <input type="file" name="picture" id="file" />
+            </div>
+
+            @Html.LabelFor(model => Model.Description)
+            <div class="form-group">
+                @Html.ValidationMessageFor(model => Model.Description)
+                @Html.EditorFor(model => Model.Description)
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="col-md-2">
+                <div class="spacing-underbutton">
+                    <input class="btn btn-default" type="submit" value="Save Changes" />
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="spacing-underbutton">
+                    @Html.ActionLink("Cancel", "GameDetails", "Games", new { specificGame = Model.GameID }, new { @class = "btn btn-default" })
+                </div>
+            </div>
+        </div>
+    }
+</div>

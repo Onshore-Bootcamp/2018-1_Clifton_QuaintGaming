@@ -1,0 +1,2125 @@
+[2/19/2018 2:11:42 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure or function ADD_USER has too many arguments specified.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at QuaintDAL.UserDAO.RegisterUser(UserDO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 129
+END
+_______________[2/19/2018 2:11:42 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure or function ADD_USER has too many arguments specified.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at QuaintDAL.UserDAO.RegisterUser(UserDO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 134
+   at QuaintGaming.Controllers.UsersController.RegisterUser(UserPO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\UsersController.cs:line 64
+END
+_______________[2/19/2018 3:09:03 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure or function ADD_USER has too many arguments specified.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at QuaintDAL.UserDAO.RegisterUser(UserDO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 129
+END
+_______________[2/19/2018 3:09:03 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure or function ADD_USER has too many arguments specified.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at QuaintDAL.UserDAO.RegisterUser(UserDO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 134
+   at QuaintGaming.Controllers.UsersController.RegisterUser(UserPO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\UsersController.cs:line 66
+END
+_______________[2/19/2018 3:11:14 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure or function ADD_USER has too many arguments specified.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at QuaintDAL.UserDAO.RegisterUser(UserDO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 129
+END
+_______________[2/19/2018 3:11:14 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure or function ADD_USER has too many arguments specified.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at QuaintDAL.UserDAO.RegisterUser(UserDO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 134
+   at QuaintGaming.Controllers.UsersController.RegisterUser(UserPO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\UsersController.cs:line 66
+END
+_______________[2/19/2018 3:14:34 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Could not find stored procedure 'VIEW_USER'.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 81
+END
+_______________[2/19/2018 3:14:34 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Could not find stored procedure 'VIEW_USER'.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 97
+   at QuaintGaming.Controllers.UsersController.UpdateUser(Int32 specificUser) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\UsersController.cs:line 95
+END
+_______________[2/19/2018 3:15:07 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Could not find stored procedure 'VIEW_USER'.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 81
+END
+_______________[2/19/2018 3:15:07 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Could not find stored procedure 'VIEW_USER'.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 97
+   at QuaintGaming.Controllers.UsersController.UpdateUser(Int32 specificUser) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\UsersController.cs:line 95
+END
+_______________[2/19/2018 3:27:21 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Could not find stored procedure 'VIEW_USER'.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 82
+END
+_______________[2/19/2018 3:27:22 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Could not find stored procedure 'VIEW_USER'.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 98
+   at QuaintGaming.Controllers.UsersController.UpdateUser(Int32 specificUser) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\UsersController.cs:line 95
+END
+_______________[2/19/2018 3:28:35 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Could not find stored procedure 'VIEW_USER'.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 82
+END
+_______________[2/19/2018 3:28:35 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Could not find stored procedure 'VIEW_USER'.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 98
+   at QuaintGaming.Controllers.UsersController.UpdateUser(Int32 specificUser) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\UsersController.cs:line 95
+END
+_______________[2/19/2018 3:34:53 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Could not find stored procedure 'VIEW_USER'.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 82
+END
+_______________[2/19/2018 3:34:53 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Could not find stored procedure 'VIEW_USER'.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 98
+   at QuaintGaming.Controllers.UsersController.UpdateUser(Int32 specificUser) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\UsersController.cs:line 95
+END
+_______________[2/19/2018 3:39:10 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Could not find stored procedure 'VIEW_USER'.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 82
+END
+_______________[2/19/2018 3:39:10 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Could not find stored procedure 'VIEW_USER'.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 98
+   at QuaintGaming.Controllers.UsersController.UpdateUser(Int32 specificUser) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\UsersController.cs:line 95
+END
+_______________[2/19/2018 3:39:23 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Could not find stored procedure 'VIEW_USER'.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 82
+END
+_______________[2/19/2018 3:39:23 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Could not find stored procedure 'VIEW_USER'.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 98
+   at QuaintGaming.Controllers.UsersController.UpdateUser(Int32 specificUser) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\UsersController.cs:line 95
+END
+_______________[2/19/2018 3:39:25 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Could not find stored procedure 'VIEW_USER'.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 82
+END
+_______________[2/19/2018 3:39:25 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Could not find stored procedure 'VIEW_USER'.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 98
+   at QuaintGaming.Controllers.UsersController.UpdateUser(Int32 specificUser) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\UsersController.cs:line 95
+END
+_______________[2/19/2018 3:39:26 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Could not find stored procedure 'VIEW_USER'.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 82
+END
+_______________[2/19/2018 3:39:26 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Could not find stored procedure 'VIEW_USER'.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 98
+   at QuaintGaming.Controllers.UsersController.UpdateUser(Int32 specificUser) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\UsersController.cs:line 95
+END
+_______________[2/20/2018 8:12:32 AM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Could not find stored procedure 'VIEW_USER'.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 82
+END
+_______________[2/20/2018 8:12:32 AM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Could not find stored procedure 'VIEW_USER'.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 98
+   at QuaintGaming.Controllers.UsersController.UpdateUser(Int32 specificUser) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\UsersController.cs:line 95
+END
+_______________[2/20/2018 8:12:39 AM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Could not find stored procedure 'VIEW_USER'.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 82
+END
+_______________[2/20/2018 8:12:39 AM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Could not find stored procedure 'VIEW_USER'.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 98
+   at QuaintGaming.Controllers.UsersController.UpdateUser(Int32 specificUser) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\UsersController.cs:line 95
+END
+_______________[2/20/2018 8:14:51 AM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Could not find stored procedure 'VIEW_USER'.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 82
+END
+_______________[2/20/2018 8:14:51 AM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Could not find stored procedure 'VIEW_USER'.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 98
+   at QuaintGaming.Controllers.UsersController.UpdateUser(Int32 specificUser) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\UsersController.cs:line 95
+END
+_______________[2/20/2018 8:17:13 AM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Could not find stored procedure 'VIEW_USER'.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 82
+END
+_______________[2/20/2018 8:18:08 AM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Could not find stored procedure 'VIEW_USER'.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 98
+   at QuaintGaming.Controllers.UsersController.UpdateUser(Int32 specificUser) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\UsersController.cs:line 95
+END
+_______________[2/20/2018 8:28:43 AM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure or function UPDATE_USER has too many arguments specified.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at QuaintDAL.UserDAO.UpdateUser(UserDO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 167
+END
+_______________[2/20/2018 8:28:43 AM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure or function UPDATE_USER has too many arguments specified.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at QuaintDAL.UserDAO.UpdateUser(UserDO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 172
+   at QuaintGaming.Controllers.UsersController.UpdateUser(UserPO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\UsersController.cs:line 122
+END
+_______________[2/20/2018 9:30:36 AM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure VIEW_USER has no parameters and arguments were supplied.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 82
+END
+_______________[2/20/2018 9:30:37 AM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure VIEW_USER has no parameters and arguments were supplied.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 99
+   at QuaintGaming.Controllers.UsersController.UpdateUser(Int32 specificUser) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\UsersController.cs:line 120
+END
+_______________[2/20/2018 9:30:48 AM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure VIEW_USER has no parameters and arguments were supplied.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 82
+END
+_______________[2/20/2018 9:30:48 AM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure VIEW_USER has no parameters and arguments were supplied.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 99
+   at QuaintGaming.Controllers.UsersController.UpdateUser(Int32 specificUser) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\UsersController.cs:line 120
+END
+_______________[2/20/2018 9:31:13 AM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure VIEW_USER has no parameters and arguments were supplied.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 82
+END
+_______________[2/20/2018 9:31:13 AM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure VIEW_USER has no parameters and arguments were supplied.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 99
+   at QuaintGaming.Controllers.UsersController.UpdateUser(Int32 specificUser) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\UsersController.cs:line 120
+END
+_______________[2/20/2018 9:31:46 AM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure VIEW_USER has no parameters and arguments were supplied.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 82
+END
+_______________[2/20/2018 9:31:46 AM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure VIEW_USER has no parameters and arguments were supplied.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.UserDAO.UserDetails(Int32 UserID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 99
+   at QuaintGaming.Controllers.UsersController.UpdateUser(Int32 specificUser) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\UsersController.cs:line 120
+END
+_______________[2/20/2018 10:08:02 AM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure or function UPDATE_USER has too many arguments specified.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at QuaintDAL.UserDAO.UpdateUser(UserDO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 169
+END
+_______________[2/20/2018 10:08:03 AM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure or function UPDATE_USER has too many arguments specified.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at QuaintDAL.UserDAO.UpdateUser(UserDO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 174
+   at QuaintGaming.Controllers.UsersController.UpdateUser(UserPO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\UsersController.cs:line 147
+END
+_______________[2/21/2018 12:57:34 PM]   *Warning*
+Target:
+  QuaintDAL.Models.UserDO UserLogin(System.String)
+Source:
+  QuaintDAL
+Message:
+  Object reference not set to an instance of an object.
+Stack Trace:
+     at QuaintDAL.UserDAO.UserLogin(String Username) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 130
+END
+_______________[2/22/2018 10:43:07 AM]   *Warning*
+Target:
+  Void ValidateCommand(System.String, Boolean)
+Source:
+  System.Data
+Message:
+  ExecuteReader: CommandText property has not been initialized
+Stack Trace:
+     at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.CommentDAO.ViewGameComments(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 37
+END
+_______________[2/22/2018 10:43:07 AM]   *Warning*
+Target:
+  Void ValidateCommand(System.String, Boolean)
+Source:
+  System.Data
+Message:
+  ExecuteReader: CommandText property has not been initialized
+Stack Trace:
+     at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.CommentDAO.ViewGameComments(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 56
+   at QuaintGaming.Controllers.CommentsController.ViewGameComments(Int32 specificGame) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\CommentsController.cs:line 38
+END
+_______________[2/22/2018 10:54:25 AM]   *Warning*
+Target:
+  Void ValidateCommand(System.String, Boolean)
+Source:
+  System.Data
+Message:
+  ExecuteReader: CommandText property has not been initialized
+Stack Trace:
+     at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.CommentDAO.ViewGameComments(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 37
+END
+_______________[2/22/2018 10:54:25 AM]   *Warning*
+Target:
+  Void ValidateCommand(System.String, Boolean)
+Source:
+  System.Data
+Message:
+  ExecuteReader: CommandText property has not been initialized
+Stack Trace:
+     at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.CommentDAO.ViewGameComments(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 56
+   at QuaintGaming.Controllers.CommentsController.ViewGameComments(Int32 specificGame) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\CommentsController.cs:line 38
+END
+_______________[2/23/2018 4:00:35 PM]   *Warning*
+Target:
+  Void ValidateCommand(System.String, Boolean)
+Source:
+  System.Data
+Message:
+  ExecuteReader: CommandText property has not been initialized
+Stack Trace:
+     at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.CommentDAO.ViewGameComments(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 37
+END
+_______________[2/23/2018 4:00:35 PM]   *Warning*
+Target:
+  Void ValidateCommand(System.String, Boolean)
+Source:
+  System.Data
+Message:
+  ExecuteReader: CommandText property has not been initialized
+Stack Trace:
+     at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.CommentDAO.ViewGameComments(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 56
+   at QuaintGaming.Controllers.CommentsController.ViewGameComments(Int32 specificGame) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\CommentsController.cs:line 37
+END
+_______________[2/23/2018 4:03:30 PM]   *Warning*
+Target:
+  Void ValidateCommand(System.String, Boolean)
+Source:
+  System.Data
+Message:
+  ExecuteReader: CommandText property has not been initialized
+Stack Trace:
+     at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.CommentDAO.ViewGameComments(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 37
+END
+_______________[2/26/2018 8:25:23 AM]   *Warning*
+Target:
+  Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+Source:
+  mscorlib
+Message:
+  Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Stack Trace:
+     at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at QuaintGaming.Controllers.CommentsController.ViewGameComments(Int32 specificGame) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\CommentsController.cs:line 42
+END
+_______________[2/26/2018 9:22:37 AM]   *Warning*
+Target:
+  Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+Source:
+  mscorlib
+Message:
+  Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Stack Trace:
+     at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at QuaintGaming.Controllers.CommentsController.ViewGameComments(Int32 specificGame) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\CommentsController.cs:line 43
+END
+_______________[2/26/2018 9:23:27 AM]   *Warning*
+Target:
+  Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+Source:
+  mscorlib
+Message:
+  Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Stack Trace:
+     at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at QuaintGaming.Controllers.CommentsController.ViewGameComments(Int32 specificGame) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\CommentsController.cs:line 43
+END
+_______________[2/26/2018 9:24:23 AM]   *Warning*
+Target:
+  Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+Source:
+  mscorlib
+Message:
+  Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Stack Trace:
+     at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at QuaintGaming.Controllers.CommentsController.ViewGameComments(Int32 specificGame) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\CommentsController.cs:line 43
+END
+_______________[2/26/2018 10:28:56 AM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure or function ADD_COMMENT has too many arguments specified.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at QuaintDAL.CommentDAO.AddComment(CommentDO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 89
+END
+_______________[2/26/2018 10:38:43 AM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure or function ADD_COMMENT has too many arguments specified.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at QuaintDAL.CommentDAO.AddComment(CommentDO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 87
+END
+_______________[2/26/2018 10:38:43 AM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure or function ADD_COMMENT has too many arguments specified.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at QuaintDAL.CommentDAO.AddComment(CommentDO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 92
+   at QuaintGaming.Controllers.CommentsController.ViewGameComments(ViewCommentPO View) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\CommentsController.cs:line 86
+END
+_______________[2/27/2018 8:44:42 AM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure or function 'UPDATE_COMMENT' expects parameter '@CommentID', which was not supplied.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at QuaintDAL.CommentDAO.UpdateComment(CommentDO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 122
+END
+_______________[2/27/2018 8:44:42 AM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure or function 'UPDATE_COMMENT' expects parameter '@CommentID', which was not supplied.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at QuaintDAL.CommentDAO.UpdateComment(CommentDO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 127
+   at QuaintGaming.Controllers.CommentsController.UpdateComment(ViewCommentPO view) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\CommentsController.cs:line 113
+END
+_______________[2/27/2018 8:47:56 AM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure or function 'UPDATE_COMMENT' expects parameter '@CommentID', which was not supplied.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at QuaintDAL.CommentDAO.UpdateComment(CommentDO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 122
+END
+_______________[2/27/2018 8:47:56 AM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure or function 'UPDATE_COMMENT' expects parameter '@CommentID', which was not supplied.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at QuaintDAL.CommentDAO.UpdateComment(CommentDO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 127
+   at QuaintGaming.Controllers.CommentsController.UpdateComment(ViewCommentPO view) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\CommentsController.cs:line 113
+END
+_______________[2/27/2018 9:07:25 AM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure or function 'UPDATE_COMMENT' expects parameter '@CommentID', which was not supplied.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at QuaintDAL.CommentDAO.UpdateComment(CommentDO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 122
+END
+_______________[2/27/2018 9:07:25 AM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure or function 'UPDATE_COMMENT' expects parameter '@CommentID', which was not supplied.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at QuaintDAL.CommentDAO.UpdateComment(CommentDO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 127
+   at QuaintGaming.Controllers.CommentsController.UpdateComment(ViewCommentPO view) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\CommentsController.cs:line 113
+END
+_______________[2/27/2018 2:53:10 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure or function 'OBTAIN_COMMENTS' expects parameter '@CommentID', which was not supplied.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.CommentDAO.ViewGameComments(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 38
+END
+_______________[2/27/2018 2:53:10 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure or function 'OBTAIN_COMMENTS' expects parameter '@CommentID', which was not supplied.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.CommentDAO.ViewGameComments(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 57
+   at QuaintGaming.Controllers.CommentsController.ViewGameComments(Int32 specificGame) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\CommentsController.cs:line 45
+END
+_______________[2/27/2018 2:53:13 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure or function 'OBTAIN_COMMENTS' expects parameter '@CommentID', which was not supplied.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.CommentDAO.ViewGameComments(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 38
+END
+_______________[2/27/2018 2:53:13 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure or function 'OBTAIN_COMMENTS' expects parameter '@CommentID', which was not supplied.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at QuaintDAL.CommentDAO.ViewGameComments(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 57
+   at QuaintGaming.Controllers.CommentsController.ViewGameComments(Int32 specificGame) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\CommentsController.cs:line 45
+END
+_______________[2/28/2018 1:51:07 PM]   *Warning*
+Target:
+  Void FCallDivide(System.Decimal ByRef, System.Decimal ByRef)
+Source:
+  mscorlib
+Message:
+  Attempted to divide by zero.
+Stack Trace:
+     at System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   at System.Decimal.Divide(Decimal d1, Decimal d2)
+   at QuaintBLL.QuaintBLO.RatingAverage(List`1 ratingList) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintBLL\QuaintBLO.cs:line 16
+   at QuaintGaming.Controllers.GamesController.GameDetails(Int32 specificGame) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 57
+END
+_______________[2/28/2018 1:51:11 PM]   *Warning*
+Target:
+  Void FCallDivide(System.Decimal ByRef, System.Decimal ByRef)
+Source:
+  mscorlib
+Message:
+  Attempted to divide by zero.
+Stack Trace:
+     at System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   at System.Decimal.Divide(Decimal d1, Decimal d2)
+   at QuaintBLL.QuaintBLO.RatingAverage(List`1 ratingList) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintBLL\QuaintBLO.cs:line 16
+   at QuaintGaming.Controllers.GamesController.GameDetails(Int32 specificGame) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 57
+END
+_______________[2/28/2018 1:51:14 PM]   *Warning*
+Target:
+  Void FCallDivide(System.Decimal ByRef, System.Decimal ByRef)
+Source:
+  mscorlib
+Message:
+  Attempted to divide by zero.
+Stack Trace:
+     at System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   at System.Decimal.Divide(Decimal d1, Decimal d2)
+   at QuaintBLL.QuaintBLO.RatingAverage(List`1 ratingList) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintBLL\QuaintBLO.cs:line 16
+   at QuaintGaming.Controllers.GamesController.GameDetails(Int32 specificGame) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 57
+END
+_______________[2/28/2018 1:51:17 PM]   *Warning*
+Target:
+  Void FCallDivide(System.Decimal ByRef, System.Decimal ByRef)
+Source:
+  mscorlib
+Message:
+  Attempted to divide by zero.
+Stack Trace:
+     at System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   at System.Decimal.Divide(Decimal d1, Decimal d2)
+   at QuaintBLL.QuaintBLO.RatingAverage(List`1 ratingList) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintBLL\QuaintBLO.cs:line 16
+   at QuaintGaming.Controllers.GamesController.GameDetails(Int32 specificGame) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 57
+END
+_______________[2/28/2018 1:51:17 PM]   *Warning*
+Target:
+  Void FCallDivide(System.Decimal ByRef, System.Decimal ByRef)
+Source:
+  mscorlib
+Message:
+  Attempted to divide by zero.
+Stack Trace:
+     at System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   at System.Decimal.Divide(Decimal d1, Decimal d2)
+   at QuaintBLL.QuaintBLO.RatingAverage(List`1 ratingList) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintBLL\QuaintBLO.cs:line 16
+   at QuaintGaming.Controllers.GamesController.GameDetails(Int32 specificGame) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 57
+END
+_______________[2/28/2018 1:51:17 PM]   *Warning*
+Target:
+  Void FCallDivide(System.Decimal ByRef, System.Decimal ByRef)
+Source:
+  mscorlib
+Message:
+  Attempted to divide by zero.
+Stack Trace:
+     at System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   at System.Decimal.Divide(Decimal d1, Decimal d2)
+   at QuaintBLL.QuaintBLO.RatingAverage(List`1 ratingList) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintBLL\QuaintBLO.cs:line 16
+   at QuaintGaming.Controllers.GamesController.GameDetails(Int32 specificGame) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 57
+END
+_______________[2/28/2018 1:51:17 PM]   *Warning*
+Target:
+  Void FCallDivide(System.Decimal ByRef, System.Decimal ByRef)
+Source:
+  mscorlib
+Message:
+  Attempted to divide by zero.
+Stack Trace:
+     at System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   at System.Decimal.Divide(Decimal d1, Decimal d2)
+   at QuaintBLL.QuaintBLO.RatingAverage(List`1 ratingList) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintBLL\QuaintBLO.cs:line 16
+   at QuaintGaming.Controllers.GamesController.GameDetails(Int32 specificGame) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 57
+END
+_______________[2/28/2018 1:51:18 PM]   *Warning*
+Target:
+  Void FCallDivide(System.Decimal ByRef, System.Decimal ByRef)
+Source:
+  mscorlib
+Message:
+  Attempted to divide by zero.
+Stack Trace:
+     at System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   at System.Decimal.Divide(Decimal d1, Decimal d2)
+   at QuaintBLL.QuaintBLO.RatingAverage(List`1 ratingList) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintBLL\QuaintBLO.cs:line 16
+   at QuaintGaming.Controllers.GamesController.GameDetails(Int32 specificGame) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 57
+END
+_______________[2/28/2018 1:51:18 PM]   *Warning*
+Target:
+  Void FCallDivide(System.Decimal ByRef, System.Decimal ByRef)
+Source:
+  mscorlib
+Message:
+  Attempted to divide by zero.
+Stack Trace:
+     at System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   at System.Decimal.Divide(Decimal d1, Decimal d2)
+   at QuaintBLL.QuaintBLO.RatingAverage(List`1 ratingList) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintBLL\QuaintBLO.cs:line 16
+   at QuaintGaming.Controllers.GamesController.GameDetails(Int32 specificGame) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 57
+END
+_______________[2/28/2018 1:51:18 PM]   *Warning*
+Target:
+  Void FCallDivide(System.Decimal ByRef, System.Decimal ByRef)
+Source:
+  mscorlib
+Message:
+  Attempted to divide by zero.
+Stack Trace:
+     at System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   at System.Decimal.Divide(Decimal d1, Decimal d2)
+   at QuaintBLL.QuaintBLO.RatingAverage(List`1 ratingList) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintBLL\QuaintBLO.cs:line 16
+   at QuaintGaming.Controllers.GamesController.GameDetails(Int32 specificGame) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 57
+END
+_______________[3/1/2018 9:16:13 AM]   *Warning*
+Target:
+  Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+Source:
+  mscorlib
+Message:
+  Input string was not in a correct format.
+Stack Trace:
+     at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s)
+   at QuaintDAL.CommentDAO.ViewGameComments(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 46
+END
+_______________[3/1/2018 9:16:13 AM]   *Warning*
+Target:
+  Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+Source:
+  mscorlib
+Message:
+  Input string was not in a correct format.
+Stack Trace:
+     at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s)
+   at QuaintDAL.CommentDAO.ViewGameComments(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 57
+   at QuaintGaming.Controllers.CommentsController.ViewGameComments(Int32 specificGame) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\CommentsController.cs:line 45
+END
+_______________[3/1/2018 9:16:18 AM]   *Warning*
+Target:
+  Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+Source:
+  mscorlib
+Message:
+  Input string was not in a correct format.
+Stack Trace:
+     at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s)
+   at QuaintDAL.CommentDAO.AllRatings(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 190
+END
+_______________[3/1/2018 9:16:18 AM]   *Warning*
+Target:
+  Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+Source:
+  mscorlib
+Message:
+  Input string was not in a correct format.
+Stack Trace:
+     at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s)
+   at QuaintDAL.CommentDAO.AllRatings(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 196
+   at QuaintGaming.Controllers.GamesController.GameDetails(Int32 specificGame) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 56
+END
+_______________[3/1/2018 9:16:21 AM]   *Warning*
+Target:
+  Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+Source:
+  mscorlib
+Message:
+  Input string was not in a correct format.
+Stack Trace:
+     at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s)
+   at QuaintDAL.CommentDAO.AllRatings(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 190
+END
+_______________[3/1/2018 9:16:21 AM]   *Warning*
+Target:
+  Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+Source:
+  mscorlib
+Message:
+  Input string was not in a correct format.
+Stack Trace:
+     at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s)
+   at QuaintDAL.CommentDAO.AllRatings(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 196
+   at QuaintGaming.Controllers.GamesController.GameDetails(Int32 specificGame) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 56
+END
+_______________[3/1/2018 9:16:31 AM]   *Warning*
+Target:
+  Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+Source:
+  mscorlib
+Message:
+  Input string was not in a correct format.
+Stack Trace:
+     at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s)
+   at QuaintDAL.CommentDAO.AllRatings(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 190
+END
+_______________[3/1/2018 9:16:31 AM]   *Warning*
+Target:
+  Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+Source:
+  mscorlib
+Message:
+  Input string was not in a correct format.
+Stack Trace:
+     at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s)
+   at QuaintDAL.CommentDAO.AllRatings(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 196
+   at QuaintGaming.Controllers.GamesController.GameDetails(Int32 specificGame) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 56
+END
+_______________[3/1/2018 9:16:32 AM]   *Warning*
+Target:
+  Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+Source:
+  mscorlib
+Message:
+  Input string was not in a correct format.
+Stack Trace:
+     at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s)
+   at QuaintDAL.CommentDAO.AllRatings(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 190
+END
+_______________[3/1/2018 9:16:32 AM]   *Warning*
+Target:
+  Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+Source:
+  mscorlib
+Message:
+  Input string was not in a correct format.
+Stack Trace:
+     at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s)
+   at QuaintDAL.CommentDAO.AllRatings(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 196
+   at QuaintGaming.Controllers.GamesController.GameDetails(Int32 specificGame) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 56
+END
+_______________[3/1/2018 9:17:05 AM]   *Warning*
+Target:
+  Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+Source:
+  mscorlib
+Message:
+  Input string was not in a correct format.
+Stack Trace:
+     at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s)
+   at QuaintDAL.CommentDAO.AllRatings(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 190
+END
+_______________[3/1/2018 9:17:05 AM]   *Warning*
+Target:
+  Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+Source:
+  mscorlib
+Message:
+  Input string was not in a correct format.
+Stack Trace:
+     at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s)
+   at QuaintDAL.CommentDAO.AllRatings(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 196
+   at QuaintGaming.Controllers.GamesController.GameDetails(Int32 specificGame) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 56
+END
+_______________[3/1/2018 9:17:06 AM]   *Warning*
+Target:
+  Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+Source:
+  mscorlib
+Message:
+  Input string was not in a correct format.
+Stack Trace:
+     at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s)
+   at QuaintDAL.CommentDAO.AllRatings(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 190
+END
+_______________[3/1/2018 9:17:06 AM]   *Warning*
+Target:
+  Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+Source:
+  mscorlib
+Message:
+  Input string was not in a correct format.
+Stack Trace:
+     at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s)
+   at QuaintDAL.CommentDAO.AllRatings(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 196
+   at QuaintGaming.Controllers.GamesController.GameDetails(Int32 specificGame) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 56
+END
+_______________[3/1/2018 9:33:28 AM]   *Warning*
+Target:
+  Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+Source:
+  mscorlib
+Message:
+  Input string was not in a correct format.
+Stack Trace:
+     at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s)
+   at QuaintDAL.CommentDAO.ViewGameComments(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 46
+END
+_______________[3/1/2018 9:33:28 AM]   *Warning*
+Target:
+  Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+Source:
+  mscorlib
+Message:
+  Input string was not in a correct format.
+Stack Trace:
+     at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s)
+   at QuaintDAL.CommentDAO.ViewGameComments(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 57
+   at QuaintGaming.Controllers.GamesController.GameDetails(Int32 specificGame) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 59
+END
+_______________[3/1/2018 9:34:28 AM]   *Warning*
+Target:
+  Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+Source:
+  mscorlib
+Message:
+  Input string was not in a correct format.
+Stack Trace:
+     at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Byte.Parse(String s)
+   at QuaintDAL.CommentDAO.ViewGameComments(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 46
+END
+_______________[3/1/2018 9:35:49 AM]   *Warning*
+Target:
+  Int32 GetOrdinal(System.String)
+Source:
+  System.Data
+Message:
+  Rating
+Stack Trace:
+     at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at QuaintDAL.CommentDAO.ViewGameComments(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 46
+END
+_______________[3/1/2018 9:35:49 AM]   *Warning*
+Target:
+  Int32 GetOrdinal(System.String)
+Source:
+  System.Data
+Message:
+  Rating
+Stack Trace:
+     at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at QuaintDAL.CommentDAO.ViewGameComments(Int32 GameID) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 57
+   at QuaintGaming.Controllers.GamesController.GameDetails(Int32 specificGame) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 59
+END
+_______________[3/1/2018 10:16:29 AM]   *Warning*
+Target:
+  System.Web.Mvc.ActionResult AddGame(System.Web.HttpPostedFileBase, QuaintGaming.Models.GamePO)
+Source:
+  QuaintGaming
+Message:
+  Object reference not set to an instance of an object.
+Stack Trace:
+     at QuaintGaming.Controllers.GamesController.AddGame(HttpPostedFileBase picture, GamePO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 110
+END
+_______________[3/1/2018 12:52:50 PM]   *Warning*
+Target:
+  Int32 GetOrdinal(System.String)
+Source:
+  System.Data
+Message:
+  Game
+Stack Trace:
+     at QuaintDAL.QuaintDAO.ViewGames() in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\QuaintDAO.cs:line 55
+   at QuaintGaming.Controllers.GamesController.Index() in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 35
+END
+_______________[3/1/2018 12:57:20 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure or function 'ADD_COMMENT' expects parameter '@CommentText', which was not supplied.
+Stack Trace:
+     at QuaintDAL.CommentDAO.AddComment(CommentDO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 86
+   at QuaintGaming.Controllers.CommentsController.AddComment(ViewCommentPO view, String ratingDropdown) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\CommentsController.cs:line 87
+END
+_______________[3/1/2018 1:10:45 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Procedure or function 'ADD_COMMENT' expects parameter '@CommentText', which was not supplied.
+Stack Trace:
+     at QuaintDAL.CommentDAO.AddComment(CommentDO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\CommentDAO.cs:line 92
+   at QuaintGaming.Controllers.CommentsController.AddComment(ViewCommentPO view, String ratingDropdown) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\CommentsController.cs:line 87
+END
+_______________[3/1/2018 4:33:59 PM]   *Warning*
+Target:
+  System.Web.Mvc.ActionResult UpdateGame(System.Web.HttpPostedFileBase, QuaintGaming.Models.GamePO)
+Source:
+  QuaintGaming
+Message:
+  Object reference not set to an instance of an object.
+Stack Trace:
+     at QuaintGaming.Controllers.GamesController.UpdateGame(HttpPostedFileBase picture, GamePO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 170
+END
+_______________[3/1/2018 4:34:16 PM]   *Warning*
+Target:
+  System.Web.Mvc.ActionResult UpdateGame(System.Web.HttpPostedFileBase, QuaintGaming.Models.GamePO)
+Source:
+  QuaintGaming
+Message:
+  Object reference not set to an instance of an object.
+Stack Trace:
+     at QuaintGaming.Controllers.GamesController.UpdateGame(HttpPostedFileBase picture, GamePO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 170
+END
+_______________[3/1/2018 4:34:32 PM]   *Warning*
+Target:
+  System.Web.Mvc.ActionResult UpdateGame(System.Web.HttpPostedFileBase, QuaintGaming.Models.GamePO)
+Source:
+  QuaintGaming
+Message:
+  Object reference not set to an instance of an object.
+Stack Trace:
+     at QuaintGaming.Controllers.GamesController.UpdateGame(HttpPostedFileBase picture, GamePO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 170
+END
+_______________[3/1/2018 4:35:53 PM]   *Warning*
+Target:
+  System.Web.Mvc.ActionResult UpdateGame(System.Web.HttpPostedFileBase, QuaintGaming.Models.GamePO)
+Source:
+  QuaintGaming
+Message:
+  Object reference not set to an instance of an object.
+Stack Trace:
+     at QuaintGaming.Controllers.GamesController.UpdateGame(HttpPostedFileBase picture, GamePO form)
+END
+_______________[3/2/2018 12:43:52 PM]   *Warning*
+Target:
+  System.String PictureDuplicator(System.Web.HttpPostedFileBase)
+Source:
+  QuaintGaming
+Message:
+  Object reference not set to an instance of an object.
+Stack Trace:
+     at QuaintGaming.Controllers.GamesController.PictureDuplicator(HttpPostedFileBase picture) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 219
+   at QuaintGaming.Controllers.GamesController.UpdateGame(HttpPostedFileBase picture, GamePO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 165
+END
+_______________[3/2/2018 12:45:06 PM]   *Warning*
+Target:
+  System.String PictureDuplicator(System.Web.HttpPostedFileBase)
+Source:
+  QuaintGaming
+Message:
+  Object reference not set to an instance of an object.
+Stack Trace:
+     at QuaintGaming.Controllers.GamesController.PictureDuplicator(HttpPostedFileBase picture) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 219
+   at QuaintGaming.Controllers.GamesController.UpdateGame(HttpPostedFileBase picture, GamePO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 165
+END
+_______________[3/2/2018 12:45:25 PM]   *Warning*
+Target:
+  System.String PictureDuplicator(System.Web.HttpPostedFileBase)
+Source:
+  QuaintGaming
+Message:
+  Object reference not set to an instance of an object.
+Stack Trace:
+     at QuaintGaming.Controllers.GamesController.PictureDuplicator(HttpPostedFileBase picture) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 219
+   at QuaintGaming.Controllers.GamesController.UpdateGame(HttpPostedFileBase picture, GamePO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 165
+END
+_______________[3/4/2018 1:54:02 PM]   *Warning*
+Target:
+  System.String PictureDuplicator(System.Web.HttpPostedFileBase)
+Source:
+  QuaintGaming
+Message:
+  Object reference not set to an instance of an object.
+Stack Trace:
+     at QuaintGaming.Controllers.GamesController.PictureDuplicator(HttpPostedFileBase picture) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 252
+   at QuaintGaming.Controllers.GamesController.AddGame(HttpPostedFileBase picture, GamePO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 141
+END
+_______________[3/6/2018 8:39:44 AM]   *Warning*
+Target:
+  Void CheckValidVirtualPath(System.String)
+Source:
+  System.Web
+Message:
+  'C:/Users/Clifton/source/repos/QuaintGaming/QuaintGaming/Content/GamePictures/Civilization.jpg' is a physical path, but a virtual path was expected.
+Stack Trace:
+     at System.Web.Util.UrlPath.CheckValidVirtualPath(String path)
+   at System.Web.Util.UrlPath.Combine(String appPath, String basepath, String relative)
+   at System.Web.VirtualPath.Combine(VirtualPath relativePath)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at System.Web.HttpServerUtilityWrapper.MapPath(String path)
+   at QuaintGaming.Controllers.GamesController.UpdateGame(GamePO form, HttpPostedFileBase picture) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 203
+END
+_______________
+[3/6/2018 8:40:59 AM]   *Warning*
+Target:
+  Void CheckValidVirtualPath(System.String)
+Source:
+  System.Web
+Message:
+  'C:/Users/Clifton/source/repos/QuaintGaming/QuaintGaming/Content/GamePictures/Civilization.jpg' is a physical path, but a virtual path was expected.
+Stack Trace:
+     at System.Web.Util.UrlPath.CheckValidVirtualPath(String path)
+   at System.Web.Util.UrlPath.Combine(String appPath, String basepath, String relative)
+   at System.Web.VirtualPath.Combine(VirtualPath relativePath)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at System.Web.HttpServerUtilityWrapper.MapPath(String path)
+   at QuaintGaming.Controllers.GamesController.UpdateGame(GamePO form, HttpPostedFileBase picture) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 203
+END
+_______________
+[3/6/2018 9:45:13 AM]   *Warning*
+Target:
+  Void WinIOError(Int32, System.String)
+Source:
+  mscorlib
+Message:
+  Could not find a part of the path 'C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Content\GamePictures\Civilization(1)\.jpg'.
+Stack Trace:
+     at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.HttpPostedFileWrapper.SaveAs(String filename)
+   at QuaintGaming.Controllers.GamesController.UpdateGame(GamePO form, HttpPostedFileBase picture) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 204
+END
+_______________
+[3/6/2018 10:02:12 AM]   *Warning*
+Target:
+  System.String PictureDuplicator(System.Web.HttpPostedFileBase)
+Source:
+  QuaintGaming
+Message:
+  Object reference not set to an instance of an object.
+Stack Trace:
+     at QuaintGaming.Controllers.GamesController.PictureDuplicator(HttpPostedFileBase picture) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 261
+   at QuaintGaming.Controllers.GamesController.AddGame(HttpPostedFileBase picture, GamePO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 146
+END
+_______________
+[3/6/2018 12:14:11 PM]   *Warning*
+Target:
+  System.String GenerateUniqueFileName(System.Web.HttpPostedFileBase)
+Source:
+  QuaintGaming
+Message:
+  Object reference not set to an instance of an object.
+Stack Trace:
+     at QuaintGaming.Controllers.GamesController.GenerateUniqueFileName(HttpPostedFileBase submittedPicture) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 326
+   at QuaintGaming.Controllers.GamesController.UpdateGame(GamePO form, HttpPostedFileBase picture) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 213
+END
+_______________
+[3/6/2018 2:59:37 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Violation of UNIQUE KEY constraint 'IX_Games'. Cannot insert duplicate key in object 'dbo.Games'. The duplicate key value is (Space Quest 4).
+The statement has been terminated.
+Stack Trace:
+     at QuaintDAL.QuaintDAO.AddGame(GameDO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\QuaintDAO.cs:line 142
+   at QuaintGaming.Controllers.GamesController.AddGame(HttpPostedFileBase picture, GamePO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 169
+END
+_______________
+[3/6/2018 3:06:58 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Violation of UNIQUE KEY constraint 'IX_Games'. Cannot insert duplicate key in object 'dbo.Games'. The duplicate key value is (Game).
+The statement has been terminated.
+Stack Trace:
+     at QuaintDAL.QuaintDAO.AddGame(GameDO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\QuaintDAO.cs:line 142
+   at QuaintGaming.Controllers.GamesController.AddGame(HttpPostedFileBase picture, GamePO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\GamesController.cs:line 169
+END
+_______________
+[3/9/2018 7:00:13 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Violation of UNIQUE KEY constraint 'IX_Users'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (QuaintGaming).
+The statement has been terminated.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at QuaintDAL.UserDAO.RegisterUser(UserDO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 182
+   at QuaintGaming.Controllers.UsersController.RegisterUser(UserPO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\UsersController.cs:line 89
+END
+_______________
+[3/9/2018 7:01:41 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Violation of UNIQUE KEY constraint 'IX_Users'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (QuaintGaming).
+The statement has been terminated.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at QuaintDAL.UserDAO.RegisterUser(UserDO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 182
+   at QuaintGaming.Controllers.UsersController.RegisterUser(UserPO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\UsersController.cs:line 89
+END
+_______________
+[3/9/2018 7:02:03 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Violation of UNIQUE KEY constraint 'IX_Users'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (QuaintGaming).
+The statement has been terminated.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at QuaintDAL.UserDAO.RegisterUser(UserDO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 182
+   at QuaintGaming.Controllers.UsersController.RegisterUser(UserPO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\UsersController.cs:line 89
+END
+_______________
+[3/9/2018 7:02:23 PM]   *Warning*
+Target:
+  Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+Source:
+  .Net SqlClient Data Provider
+Message:
+  Violation of UNIQUE KEY constraint 'IX_Users'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (QuaintGaming).
+The statement has been terminated.
+Stack Trace:
+     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at QuaintDAL.UserDAO.RegisterUser(UserDO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\UserDAO.cs:line 182
+   at QuaintGaming.Controllers.UsersController.RegisterUser(UserPO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\UsersController.cs:line 89
+END
+_______________
+[3/13/2018 9:29:38 AM]   *Warning*
+Target:
+  System.Web.Mvc.ActionResult RegisterUser(QuaintGaming.Models.UserPO)
+Source:
+  QuaintGaming
+Message:
+  Object reference not set to an instance of an object.
+Stack Trace:
+     at QuaintGaming.Controllers.UsersController.RegisterUser(UserPO form) in C:\Users\Clifton\source\repos\QuaintGaming\QuaintGaming\Controllers\UsersController.cs:line 90
+END
+_______________

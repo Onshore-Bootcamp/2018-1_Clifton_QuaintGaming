@@ -1,0 +1,6 @@
+C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\bin\Debug\QuaintDAL.dll
+C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\bin\Debug\QuaintDAL.pdb
+C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\obj\Debug\QuaintDAL.csprojResolveAssemblyReference.cache
+C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\obj\Debug\QuaintDAL.csproj.CoreCompileInputs.cache
+C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\obj\Debug\QuaintDAL.dll
+C:\Users\Clifton\source\repos\QuaintGaming\QuaintDAL\obj\Debug\QuaintDAL.pdb

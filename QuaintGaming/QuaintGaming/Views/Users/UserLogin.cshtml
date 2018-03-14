@@ -1,0 +1,29 @@
+﻿@using QuaintGaming.Models
+@model LoginPO
+
+@{
+    ViewBag.Title = "UserLogin";
+}
+
+<div>
+    <h2>Login</h2>
+
+    @using (Html.BeginForm("UserLogin", "Users", FormMethod.Post))
+    {
+        <div class="form-horizontal">
+            @Html.LabelFor(model => Model.Username)
+            <div class="form-group">
+                @Html.TextBoxFor(model => Model.Username)
+            </div>
+
+            @Html.LabelFor(model => Model.Password)
+            <div class="form-group">
+                @Html.PasswordFor(model => Model.Password)
+            </div>
+            <div class="spacing-underbutton">
+                @Html.ValidationSummary()
+                <input class="btn btn-default" type="submit" value="Log In" />
+            </div>
+        </div>
+    }
+</div>
